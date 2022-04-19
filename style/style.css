@@ -1,0 +1,30 @@
+body {
+    background-image: url(../purple\ clouds.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rainbow{
+    margin: auto;
+height: 100vh;
+width: 95vw;
+position: relative;
+overflow: hidden;
+}
+
+.rainbow:after{
+content: '';
+position: absolute;
+width: 50%;
+height: 100%;
+border-radius: 50%;
+left: 25%;
+top: 50%;
+box-shadow: 0 0 0 2em blue,
+0 0 0 4em lightblue,
+0 0 0 6em turquoise,
+0 0 0 8em lavender,
+0 0 0 10em violet,
+0 0 0 12em purple,
+0 0 0 14em blueviolet;
+}
